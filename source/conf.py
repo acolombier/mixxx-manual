@@ -471,3 +471,9 @@ linkcheck_retries = 2
 
 # Don't verify TLS
 tls_verify = False
+
+# MyST
+myst_enable_extensions = [
+    "attrs_block",
+    "colon_fence",
+]
